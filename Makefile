@@ -1,3 +1,6 @@
+serve:
+	jekyll serve
+
 deploy:
 	jekyll build
 	cd _site && \
