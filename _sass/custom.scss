@@ -7,11 +7,18 @@
         text-align: center;
     }
 
+    h2, h3, h4, h5 {
+        color: #737373;
+    }
+
     h2 {
         border-bottom: 1px solid #e8e8e8;
-        color: #737373;
         font-size: 26px;
         margin-top: 40px;
+    }
+
+    h3 {
+        font-size: 18px;
     }
 
     img {
@@ -37,5 +44,11 @@
         font-size: small;
         margin-top: 40px;
         padding: 30px;
+        ol {
+            margin-bottom: 0;
+            p {
+                margin-bottom: 5px;
+            }
+        }
     }
 }
