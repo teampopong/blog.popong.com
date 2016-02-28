@@ -18,4 +18,9 @@ github_username: teampopong
 
 # Build settings
 markdown: kramdown
+paginate: 10
+paginate_path: "?page=:num"
 permalink: /:year/:month/:day/:title/
+gems: [
+    'jekyll-paginate',
+]
