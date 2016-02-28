@@ -1,16 +1,41 @@
-blockquote {
-    font-style: normal;
-}
+.post-content {
+    blockquote {
+        font-style: normal;
+    }
 
-.caption {
-    color: gray;
-    font-size: small;
-    margin-bottom: 40px;
-}
+    div.center {
+        text-align: center;
+    }
 
-.footnotes {
-    background-color: whitesmoke;
-    font-size: small;
-    margin-top: 40px;
-    padding: 30px;
+    h2 {
+        border-bottom: 1px solid #e8e8e8;
+        color: #737373;
+        font-size: 26px;
+        margin-top: 40px;
+    }
+
+    img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .caption {
+        color: gray;
+        font-size: small;
+        margin-top: -20px;
+        margin-bottom: 40px;
+    }
+
+    .footnotes {
+        background-color: whitesmoke;
+        font-size: small;
+        margin-top: 40px;
+        padding: 30px;
+    }
 }
