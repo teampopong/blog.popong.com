@@ -9,15 +9,24 @@
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            <i class="fa fa-github"></i>
+            <a href="http://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
           </li>
           {% endif %}
           {% if site.twitter_username %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            <i class="fa fa-twitter"></i>
+            <a href="http://twitter.com/{{ site.twitter_username }}">{{ site.twitter_username }}</a>
           </li>
           {% endif %}
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="{{ site.homepage }}">{{ site.homepage }}</a>
+          </li>
+          <li>
+            <i class="fa fa-rss "></i>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
+          </li>
         </ul>
       </div>
 
