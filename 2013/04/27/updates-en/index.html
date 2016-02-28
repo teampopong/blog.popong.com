@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Updates (Mar., Apr. 2013)</title>
+  <meta name="description" content="In the last two months, Team POPONG did the followings.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.popong.com/2013/04/27/updates-en/">
+  <link rel="alternate" type="application/rss+xml" title="Dev Blog - Team POPONG" href="http://blog.popong.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dev Blog - Team POPONG</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          <a class="page-link" href="http://popong.com">Home</a>
+        
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Updates (Mar., Apr. 2013)</h1>
+    <p class="post-meta">
+      <time datetime="2013-04-27T18:24:00+09:00" itemprop="datePublished">Apr 27, 2013</time>
+       • By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">echojuliett</span></span>
+      
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>In the last two months, Team POPONG did the followings.
+<!-- more --></p>
+
+<h2 id="politician-dictionary">Politician Dictionary</h2>
+
+<ul>
+  <li>
+    <p>Layout renewal (in progress): Attempted to change from a 2-column to 3-column layout, but decided to go back to 2 columns</p>
+
+    <p><img src="/images/2013-04-27-after.png" width="300" />
+  <img src="/images/2013-04-27-before.png" width="300" /></p>
+    <div class="caption center">Challenger (left) and Champion (right).</div>
+  </li>
+  <li>Autocomplete(<a href="http://twitter.github.io/typeahead.js/">typeahead</a>) in search box</li>
+  <li>Add feature to save favorite politicians to cart</li>
+  <li>Display more personal information of politicians
+    <ul>
+      <li>district, job, education, experience, address</li>
+      <li>Separate timeline and trends into new tabs</li>
+    </ul>
+  </li>
+  <li>Test GIN(Generalized Inverted Index) index + trigram module: sequential search was faster because the dataset is too small</li>
+  <li>Search by political party affiliation</li>
+  <li>Improve transliteration using <a href="https://pypi.python.org/pypi/Unidecode">Unidecode</a></li>
+</ul>
+
+<h2 id="data">Data</h2>
+
+<ul>
+  <li>Database history management through <a href="http://pypi.python.org/pypi/alembic">Alembic</a></li>
+  <li>Refine politician address and district data
+    <ul>
+      <li>ex: <code class="highlighter-rouge">경기 부천시원미구을</code> -&gt; <code class="highlighter-rouge">경기도&lt;Province&gt; 부천시&lt;Municipality&gt; 원미구&lt;Municipality&gt; 을</code></li>
+    </ul>
+  </li>
+  <li>Collect more minutes (Updated crawler)</li>
+</ul>
+
+<h2 id="misc">Misc</h2>
+<ul>
+  <li><a href="http://popong.com">popong.com</a>
+    <ul>
+      <li>Embed <a href="http://dev.twitter.com/docs/follow-button">Twitter</a>, <a href="http://developers.facebook.com/docs/reference/plugins/like/">Facebook</a> buttons</li>
+      <li>Test <a href="https://travis-ci.org/teampopong/popong.com">Travis CI</a></li>
+    </ul>
+  </li>
+  <li>Migrate internal repositories to <a href="http://github.com/teampopong">GitHub</a>: Gradually turning to open-source :)
+    <ul>
+      <li>Websites: <a href="https://github.com/teampopong/popong.com">popong.com</a>, <a href="https://github.com/teampopong/teampopong.github.com">blog.popong.com</a>, <a href="https://github.com/teampopong/iamseoulmayor">popong.com/iamseoulmayor</a>, <a href="https://github.com/teampopong/nanow">labs.popong.com/codenamu</a></li>
+      <li>Data: <a href="https://github.com/teampopong/southkorea-maps">South Korean maps</a>, <a href="https://github.com/teampopong/southkorea-population">South Korean population</a></li>
+      <li>Codes: <a href="https://github.com/teampopong/crawlers">Crawlers</a>, <a href="https://github.com/teampopong/nlp">NLP</a></li>
+    </ul>
+  </li>
+  <li>Participated in <a href="http://onoffmix.com/event/12520">Open Data Day</a> hosted by <a href="http://www.facebook.com/groups/OKFNKorea/">OKFN Korea</a>
+    <ul>
+      <li>Released <a href="https://github.com/teampopong/korea-assembly-officials-property">property data of Korean National Assembly officials</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Dev Blog - Team POPONG</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          
+          <li>
+            <i class="fa fa-github"></i>
+            <a href="http://github.com/teampopong">teampopong</a>
+          </li>
+          
+          
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="http://twitter.com/teampopong">teampopong</a>
+          </li>
+          
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="http://popong.com">http://popong.com</a>
+          </li>
+          <li>
+            <i class="fa fa-rss "></i>
+            <a href="/feed.xml">RSS</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>팀포퐁은 기술을 바탕으로 정치를 보다 쉽고 재미있게 하기 위한 비영리, 무소속의 중립적 단체입니다. Team POPONG is a nonprofit, nonpartisan group in Korea that aims to make politics easy and fun via technology.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

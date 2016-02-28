@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>대한민국 정치인명사전이 포커로 다시 태어난 사연</title>
+  <meta name="description" content="컴퓨터공학에서 가장 어려운 것이 세 가지 두 가지 있다면 그것은 캐싱, 작명, 그리고 off-by-one 에러라고 하죠.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.popong.com/2013/06/29/why-pokr-became-pokr/">
+  <link rel="alternate" type="application/rss+xml" title="Dev Blog - Team POPONG" href="http://blog.popong.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dev Blog - Team POPONG</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          <a class="page-link" href="http://popong.com">Home</a>
+        
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">대한민국 정치인명사전이 포커로 다시 태어난 사연</h1>
+    <p class="post-meta">
+      <time datetime="2013-06-29T11:40:00+09:00" itemprop="datePublished">Jun 29, 2013</time>
+       • By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">echojuliett</span></span>
+      
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>컴퓨터공학에서 가장 어려운 것이 <s>세 가지</s> 두 가지 있다면 그것은 캐싱, 작명, 그리고 <a href="http://en.wikipedia.org/wiki/Off-by-one_error">off-by-one 에러</a>라고 하죠.</p>
+
+<blockquote>
+  <p>There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.</p>
+</blockquote>
+
+<p>팀포퐁은 그 중에서 작명에 대한 고민을 많이 했는데요, 오늘 그와 관련된  이야기 하나를 공유해볼까 합니다.<!-- more --></p>
+
+<p>얼마 전 “대한민국 정치인명사전”이 알파 딱지를 떼고 베타로 승격(!)되면서 <a href="http://pokr.kr">“포커(Pokr) - 대한민국 정치의 모든 것”</a>이라는 새로운 이름을 가지게 되었습니다.
+그런데 사실 ‘포커’를 ‘포커’라고 부를 수 있게 되기까지는 많은 의견이 오가야 했습니다.</p>
+
+<center>
+<img src="/images/2013-06-29-polidic.png" width="150" />
+<i class="icon-arrow-right"></i>
+<img src="/images/2013-06-29-pokr.png" width="150" />
+<div class="caption">대한민국 정치인명사전에서 포커로</div>
+</center>
+
+<h2 id="section">서비스명을 무엇으로 할 것인가?</h2>
+<p>애초에 포커는 ‘plan-pithy’라는 코드네임으로 시작되었습니다.
+‘Pithy’는 <a href="http://dictionary.reference.com/browse/pithy">‘간결하지만 함축적인’</a>이라는 뜻을 가지고 있어서 포커의 철학을 표현하기에 충분했습니다.
+이후 포커의 알파 버젼을 내놓으면서 서비스명에 대한 이슈가 본격적으로 제기되었는데, 당시에는 기획안을 가장 직관적으로 나타내는 ‘대한민국 정치인명사전’이라는 이름을 고민 없이 채택할 수 있었죠.</p>
+
+<p>그러다가 2013년 6월 10일, 포커의 베타 런칭을 앞두고 팀포퐁은 큰 고민에 빠졌습니다.
+애초에 알파 버젼은 인물을 중심으로 기획했는데, 서비스를 개발하는 과정에서 의안과 정당, 지역의 중요성을 인식하게 되면서 ‘정치인’만을 다루는 서비스에서 ‘대한민국 정치의 모든 것’을 다루는 서비스로 범위가 확장되었기 때문입니다.
+따라서 ‘대한민국 정치인명사전’이라는 이름에는 아래의 문제들이 있다고 판단했습니다.</p>
+
+<ul>
+  <li>서비스를 ‘정치인’에 국한시킨다는 문제
+    <ul>
+      <li>‘정치인’은 국회의원까지인가, 고위공무원까지인가, 또는 국민 모두가 정치인일 수 있는가? (표현의 모호성)</li>
+      <li>의안, 정당 등이 포함되는가? (의미의 협의성)</li>
+    </ul>
+  </li>
+  <li>서비스를 ‘사전’에 국한시킨다는 문제
+    <ul>
+      <li>차후 정치인 비교 기능이 생긴다면<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> ‘사전’이라는 표현이 적합할까?</li>
+    </ul>
+  </li>
+</ul>
+
+<p>그래서 몇 가지 대안을 생각해보았습니다.<br />
+정치에 대해 궁금한 것이 있을 때 언제든 찾아볼 수 있다는 의미의 <strong>정치용어사전(Political Glossary)</strong>, 정치 백과라는 의미의 <strong>폴리피디아(Polipedia)</strong>, 정치 사전이라는 의미의 <strong>폴리딕(Polidic)</strong>, 그리고 대한민국 정치에 관한 모든 것을 담았다(politics in Korea)는 의미의 <strong>포커(Pokr)</strong>… <sup id="fnref:3"><a href="#fn:3" class="footnote">2</a></sup></p>
+
+<p>다양한 아이디어 중에서 단연 눈에 띄는 이름은 ‘포커’였습니다.
+하지만 우려의 목소리도 있었는데요…</p>
+
+<table class="table">
+    <tr>
+        <th style="width: 10%;"></th>
+        <th style="width: 45%;">포커, 정말 좋다!</th>
+        <th style="width: 45%;">포커, 좀 걱정된다...</th>
+    </tr>
+    <tr>
+        <td>발음</td>
+        <td>이미 존재하는 어휘 'poker'와 동음이의어기 때문에 사람들의 기억에 잘 각인될 수 있을 것이다.</td>
+        <td>막상 "포커"가 아니라 돼지고기(pork)로 읽히면 어쩌지...?</td>
+    </tr>
+    <tr>
+        <td>의미</td>
+        <td>Politics in Korea는 정치 전반을 포괄하는 이름이고, 동음이의어인 poker의 의미를 살린다면 gamification을 통해 정치를 보다 재미있게 만들어 볼 수 있다.</td>
+        <td>Poker와 동음이의어이기 때문에 오히려 정치를 가볍게 여긴다는 인식이 생길 수 있고, 디자인이나 컨셉에 제약이 생길 수 있다.</td>
+    </tr>
+    <tr>
+        <td>기타</td>
+        <td>URL이 짧다!</td>
+        <td>...</td>
+    </tr>
+</table>
+
+<p>단점들이 존재하지만, 더 큰 장점들이 있다고 판단하여 팀포퐁은 ‘포커’를 최종 서비스명으로 정하게 되었습니다.
+팀포퐁은 ‘포커’가:</p>
+
+<ul>
+  <li>‘대한민국 정치인명사전’이라는 이름이 내재하는 단점들을 극복함과 동시에 (확장성)</li>
+  <li>장난스러움이(puckish) 친근함을 느끼게 하고<sup id="fnref:5"><a href="#fn:5" class="footnote">3</a></sup> (down to earth)</li>
+  <li>‘대한민국 정치인명사전’에 비해 전세계 누구나 외우기 쉬운 이름 (globalization이 용이)</li>
+</ul>
+
+<p>이라고 생각합니다. 어떤가요?
+지금은 포커라는 이름 대신 ‘대한민국 정치의 모든 것’이나 ‘Politics in Korea’로 기억하시는 분들도 있습니다만 ‘포커’라는 이름도 참 사랑스럽지 않나요?^^</p>
+
+<p>대한민국 정치의 모든 것을 담고자하는  포퐁의 포커, 꼭 기억해주시고 많이 이용해주세요~</p>
+
+<blockquote>
+  <p><span style="line-height: 3em;"><em>TLDR;</em></span><br />
+<strong>포풍</strong>이 아니라 <strong>포퐁</strong>,<br />
+<strong>포크</strong>가 아니고 <strong>포커</strong>입니다! ㅋㅋ</p>
+</blockquote>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>네, 언제가 될지는 모르지만 계획하고는 있습니다 ^^; <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>그 외에 ‘roster’, ‘whoswho’ 등의 아이디어도 있었지만, ‘대한민국 정치인명사전’과 마찬가지로 정치인만을 대상으로 하는 이름이라 폐기되었습니다. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:5">
+      <p>그러나 디자인의 가능성을 제약하지 않기 위해 동음이의어인 poker의 컨셉이나 gamification은 사용하지 않기로 했습니다. <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Dev Blog - Team POPONG</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          
+          <li>
+            <i class="fa fa-github"></i>
+            <a href="http://github.com/teampopong">teampopong</a>
+          </li>
+          
+          
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="http://twitter.com/teampopong">teampopong</a>
+          </li>
+          
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="http://popong.com">http://popong.com</a>
+          </li>
+          <li>
+            <i class="fa fa-rss "></i>
+            <a href="/feed.xml">RSS</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>팀포퐁은 기술을 바탕으로 정치를 보다 쉽고 재미있게 하기 위한 비영리, 무소속의 중립적 단체입니다. Team POPONG is a nonprofit, nonpartisan group in Korea that aims to make politics easy and fun via technology.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

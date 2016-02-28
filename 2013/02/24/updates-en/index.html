@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Updates (Jan., Feb. 2013)</title>
+  <meta name="description" content="Since November 2010, Team POPONG has went through a variety of discussions and experiments.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.popong.com/2013/02/24/updates-en/">
+  <link rel="alternate" type="application/rss+xml" title="Dev Blog - Team POPONG" href="http://blog.popong.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dev Blog - Team POPONG</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          <a class="page-link" href="http://popong.com">Home</a>
+        
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Updates (Jan., Feb. 2013)</h1>
+    <p class="post-meta">
+      <time datetime="2013-02-24T00:00:00+09:00" itemprop="datePublished">Feb 24, 2013</time>
+      
+       • By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">echojuliett, cornchz</span></span>
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>Since November 2010, Team POPONG has went through a variety of discussions and experiments.<br/>
+
+Inspired by <a href="http://www.govtrack.us/blog/2013/02/09/winter-2013-updates-1/" target="_blank">GovTrack&#8217;s periodical reports</a>, we now plan to share our day-by-day lessons. We hope they would benefit other toddler teams that are imagining their own services.</p>
+<!-- more -->
+
+
+
+<h2>Politician Dictionary</h2>
+
+
+
+<ul><li>Dropped usage of MongoDB, and migrated to SQLAlchemy+PostgreSQL.
+
+
+
+<ul><li>Detailed backgrounds shall be posted in the future.</li>
+
+</ul></li>
+
+<li><p>Created portable widgets for a politician&#8217;s <strong>timeline</strong> and <strong>related people</strong>.</p>
+
+
+
+<pre><code>&lt;script src="http://popong.com/widgets/relation.js?person_id=195224" type="text/javascript"&gt;&lt;/script&gt;
+
+</code></pre></li>
+
+<li>Exposed politicians&#8217; Chinese names along with the Korean names.</li>
+
+<li>Added birthyear page (ex: <a href="http://popong.com/polidic/year/1953" target="_blank">Politicians born in 1953</a>).</li>
+
+<li>Modified the browser title, so that the more importation information came first.
+
+
+
+<ul><li><code>POPONG Politician Dictionary - Chin Seon-mi</code> <br/>-&gt; <code>Chin Seon-mi (Minjut-Onghap Party) :: POPONG Politician Dictionary</code></li>
+
+</ul></li>
+
+<li>Started accumulating visiting logs.</li>
+
+</ul><h2>Data</h2>
+
+
+
+<ul><li>Collected all datasets dispersed among the whole filesystem into a single Git repository.
+
+
+
+<ul><li>Documented known sources for every dataset.</li>
+
+</ul></li>
+
+<li>Imported Twitter, Facebook addresses of politicians
+
+
+
+<ul><li>From <a href="https://docs.google.com/spreadsheet/ccc?key=0Ao-novvdf79gdExCbW9FVWg0VlBoanNQSzV1akFJR1E" target="_blank">SNS addressbook of politicians (unofficial)</a> by <a href="http://maplestory.com" target="_blank">@mazefind</a>.</li>
+
+</ul></li>
+
+<li>Built a glossary of terms containing Korean meanings, English translations, and aliases.</li>
+
+<li>Built a mapping between Hanja(Chinese)-Hangul(Korean) for transliterations.
+
+
+
+<ul><li>Both for Korean last names and for general use.</li>
+
+</ul></li>
+
+<li>Wrote a PDF-parsing library in Jython.
+
+
+
+<ul><li>However, produces errors and does not yet work perfectly.</li>
+
+<li>ex: &#8220;대안&#8221; →  &#8220;눀안&#8221;</li>
+
+</ul></li>
+
+<li>Crawled the number of Google search results of each politician in order to digitize the politician&#8217;s popularity.
+
+
+
+<ul><li>ex: &#8220;<em>About 24,900,000 results (0.13 seconds)</em>&#8221;</li>
+
+<li>However, this approach was deprecated.</li>
+
+<li>Alternatives exists: Twitter search index or co-authorships of bills.</li>
+
+</ul></li>
+
+<li>Gathered and preprocessed <a href="https://github.com/teampopong/southkorea-maps" target="_blank">South Korean map data</a>.</li>
+
+</ul><h2>Misc</h2>
+
+
+
+<ul><li>Created <a href="http://developers.popong.com" target="_blank">Developers Page</a>.</li>
+
+<li><p>Added link alternates.</p></li>
+
+<li><p>Applied i18n so that all pages are also available in English: .</p></li>
+
+<li>Switched from Apache2 to Nginx.</li>
+
+<li>Standardized file naming convention.
+
+
+
+<ul><li>Only Roman letters.</li>
+
+<li>Lower-case everywhere.</li>
+
+<li>Underscores(<code>_</code>) between words.</li>
+
+</ul></li>
+
+<li>Participated in OKFnKorea&#8217;s Open Data Day Conference, and organized <a href="https://github.com/teampopong/korea-assembly-officials-property" target="_blank">19th Assembly members&#8217; property data</a>.</li>
+
+</ul>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Dev Blog - Team POPONG</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          
+          <li>
+            <i class="fa fa-github"></i>
+            <a href="http://github.com/teampopong">teampopong</a>
+          </li>
+          
+          
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="http://twitter.com/teampopong">teampopong</a>
+          </li>
+          
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="http://popong.com">http://popong.com</a>
+          </li>
+          <li>
+            <i class="fa fa-rss "></i>
+            <a href="/feed.xml">RSS</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>팀포퐁은 기술을 바탕으로 정치를 보다 쉽고 재미있게 하기 위한 비영리, 무소속의 중립적 단체입니다. Team POPONG is a nonprofit, nonpartisan group in Korea that aims to make politics easy and fun via technology.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

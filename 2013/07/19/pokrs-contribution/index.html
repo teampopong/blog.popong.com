@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>포커(Pokr)가 국회 의안정보시스템과 다른게 뭐죠?</title>
+  <meta name="description" content="어느덧 포커(Pokr) 베타오픈을 한 지 40여 일이 지났습니다.그 동안 이메일, 트위터, 페이스북, 피드백 포럼 등을 통해 국내외에서 수없이 많은 관심과 응원을 받았고, 페이스북 라이크도 1K를 달성했습니다.">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://blog.popong.com/2013/07/19/pokrs-contribution/">
+  <link rel="alternate" type="application/rss+xml" title="Dev Blog - Team POPONG" href="http://blog.popong.com/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Dev Blog - Team POPONG</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          <a class="page-link" href="http://popong.com">Home</a>
+        
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">포커(Pokr)가 국회 의안정보시스템과 다른게 뭐죠?</h1>
+    <p class="post-meta">
+      <time datetime="2013-07-19T12:00:00+09:00" itemprop="datePublished">Jul 19, 2013</time>
+       • By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">echojuliett</span></span>
+      
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>어느덧 <a href="http://pokr.kr">포커(Pokr)</a> 베타오픈을 한 지 40여 일이 지났습니다.<br />
+그 동안 <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#099;&#111;&#110;&#116;&#097;&#099;&#116;&#064;&#112;&#111;&#112;&#111;&#110;&#103;&#046;&#099;&#111;&#109;">이메일</a>, <a href="http://twitter.com/teampopong">트위터</a>, <a href="http://facebook.com/teampopong">페이스북</a>, <a href="http://teampopong.uservoice.com">피드백 포럼</a> 등을 통해 국내외에서 수없이 많은 관심과 응원을 받았고, <a href="/2013/07/13/weve-reached-1k-pokr-likes/">페이스북 라이크도 1K를 달성했습니다</a>.</p>
+
+<p>오늘은 저희가 받은 많은 질문 중 의미있는 것을 한 가지를 꼽아, 공개답변을 드리도록 하겠습니다.<!-- more --></p>
+
+<blockquote>
+  <p>그래서…
+이미 옛날부터 있던 의안정보시스템보다 나은 게 뭐죠?</p>
+</blockquote>
+
+<p>질문을 받고 다소 당황하기는 했지만, 아주 중요한 문제제기라고 생각합니다.<br />
+실제로 팀포퐁도 포커를 기획하면서 정확히 같은 고민을 항상 했습니다.<br />
+이와 관련해서 저희가 생각했던 포커의 차별점과, 차후 계획을 말씀드리면 저희가 의도했던 포커의 의미를 더 잘 전달할 수 있을거라 생각됩니다.</p>
+
+<h2 id="section">포커, 이것이 특별하다!</h2>
+
+<h3 id="data-interlinking">1. 데이터 간 유기적 연결성 (Data interlinking)</h3>
+
+<p><img class="center" src="/images/2013-07-19-likms.png" width="600" /></p>
+<div class="caption center">
+국회 의안정보시스템에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
+(<a href="http://likms.assembly.go.kr/bill/jsp/BillDetail.jsp?bill_id=PRC_T1D3K0Y7O1C9G1E1R4W2S0B4I6M4V5&amp;list_url=/bill/jsp/LatestReceiptBill.jsp">국회에서 보기</a>)
+</div>
+
+<p>당장 국회의 의안정보시스템과 다른 점은 “데이터 간 링크”입니다.
+아직까지 국회 홈페이지의 <a href="http://likms.assembly.go.kr/bill/">의안정보시스템</a>에서 특정 의안에 대해 검색하면 위 화면캡쳐에서처럼 발의자 명단을 볼 수 있지만, 실제로 발의자가 어떤 사람인지 확인해볼 수 있는 링크는 없습니다. <sup id="fnref:5"><a href="#fn:5" class="footnote">1</a></sup> 만일 유권자들이 4년마다 한 번씩 바뀌는 300여 명 국회의원들의 이름만 보고도 발의한 사람이 누군지 알 수 있다면 문제가 되지 않겠지만, 그러기는 쉽지 않을 것이라고 생각합니다.</p>
+
+<p>따라서 팀포퐁은 의안에 대한 발의자 데이터를 가져온 후, 현재 국회에 있는 의원들의 이름과 매칭(matching)하는 작업을 가장 먼저 했습니다.<sup id="fnref:3"><a href="#fn:3" class="footnote">2</a></sup>
+이 때문에 포커에서는, 국회의원 페이지에서 그가 발의한 의안 페이지로 이동하고, 다시 의안 페이지에서 다른 의원 페이지로, 의원 소속 지역구 페이지로, 넘실넘실 이동할 수 있는 것입니다.</p>
+
+<p><img class="center" src="/images/2013-07-19-pokr.png" width="600" /></p>
+<div class="caption center">
+포커(Pokr)에 게시된 2013년 7월 19일자 원자력안전법 일부개정법률안
+(<a href="http://pokr.kr/bill/1906067">포커에서 보기</a>)
+</div>
+
+<h3 id="data-aggregation">2. 인물을 기준으로 자료 통합 (Data aggregation)</h3>
+
+<p>국회 모니터링, 즉 국회 활동을 지켜보고자 할 때는 특정 의원이 어떠한 의안을 발의하는지가 중요한 정보입니다.
+국회 홈페이지의 <a href="http://www.assembly.go.kr/renew10/mem/mem/mem_search.jsp">국회의원 현황</a> 메뉴에서도 의원들의 대표발의 내역을 열람해볼 수 있지만,
+현 19대 국회에 대한 데이터만 제공하고 있기 때문에 차후 선거 등에서 유권자가 투표권을 행사할 때 판단근거가 부족할 수 있습니다.<sup id="fnref:2"><a href="#fn:2" class="footnote">3</a></sup></p>
+
+<p>그러한 관점에서 포커는,</p>
+
+<ul>
+  <li>국회의원 선거에 출마한 후보자 전체에 대해 데이터를 병합하고</li>
+  <li>당선자의 역대 국회 활동 내역 전체를 통합하고</li>
+  <li>의원의 대표발의 내역 뿐 아니라 공동발의 내역도 열람할 수 있게 하였습니다.</li>
+</ul>
+
+<h3 id="section-1">3. 그 외</h3>
+<p>외에도 포커는 아래와 같은 점들에 신경을 썼습니다.</p>
+
+<ul>
+  <li>모바일 호환성 보장 (Mobile compatibility)</li>
+  <li>데이터에 기계적 가독성 부여 (Machine readable formats)</li>
+  <li>의미있는 링크 주소 부여 (Descriptive URLs)</li>
+  <li>정치 컨텐츠의 영문화 (i18n)<sup id="fnref:1"><a href="#fn:1" class="footnote">4</a></sup></li>
+</ul>
+
+<h2 id="section-2">이제 포커가 나아갈 방향</h2>
+
+<p>베타 오픈을 한 이후 많은 피드백을 통해, 포커가 나아갈 방향을 정리할 수 있게 되었습니다. 앞으로 다음의 세 가지 기능에 포커스해서 서비스를 발전시킬 예정입니다.</p>
+
+<ol>
+  <li>나열된 데이터를 의미있는 정보로 변환 (통계, 시각화 등)</li>
+  <li>3rd party app의 가능성을 낳기 위한 정치 데이터 API 제공</li>
+  <li>내가 관심 가지고 있는 의원, 의안, 주제에 대한 맞춤형 정보를 구독해볼 수 있는 my page 제공</li>
+</ol>
+
+<p>위의 기능들이 더 좋은 방향으로 발전하기 위해서는 유저분들의 많은 피드백이 필요합니다. 그러니 비판과 칭찬, 더 멋진 서비스가 되기 위한 아이디어, 아끼지 말고 많이 부탁드리겠습니다!</p>
+
+<center>
+<a href="http://teampopong.uservoice.com"><div style="background: #EEE; padding: 10px; margin-top: 20px;">포커에 피드백 주러가기</div></a>
+</center>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:5">
+      <p><a href="http://www.epeople.go.kr/">국민 신문고</a>를 통해 국회사무처가 본 기능을 적용하도록 요구할 수 있습니다. <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p><a href="https://github.com/teampopong/pokr/blob/master/scripts/insert_candidacies.py#L150">여기에서</a> 관련 파이썬 코드를 보실 수 있습니다. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>이러한 상황에 대해 저희 팀에서는, “모든 재료가 완비되어 있으니 이제 맛있게 요리만 하면 된다”는 표현을 자주 사용합니다. 차후 이 재료의 질(ex: 동명이인 처리 문제)이나 적합성(ex: 기계적으로 처리할 수 없는, 상업적/폐쇄적 형태의 포맷 사용) 등에 대해서는 따로 포스팅 할 예정입니다. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:1">
+      <p>대한민국 정치 데이터에 대한 국제적 접근성을 높이기 위함. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Dev Blog - Team POPONG</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          
+          <li>
+            <i class="fa fa-github"></i>
+            <a href="http://github.com/teampopong">teampopong</a>
+          </li>
+          
+          
+          <li>
+            <i class="fa fa-twitter"></i>
+            <a href="http://twitter.com/teampopong">teampopong</a>
+          </li>
+          
+          <li>
+            <i class="fa fa-home"></i>
+            <a href="http://popong.com">http://popong.com</a>
+          </li>
+          <li>
+            <i class="fa fa-rss "></i>
+            <a href="/feed.xml">RSS</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>팀포퐁은 기술을 바탕으로 정치를 보다 쉽고 재미있게 하기 위한 비영리, 무소속의 중립적 단체입니다. Team POPONG is a nonprofit, nonpartisan group in Korea that aims to make politics easy and fun via technology.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
