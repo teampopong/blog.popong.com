@@ -3,6 +3,7 @@ layout: post
 title: Updates (May., Jun. 2013)
 date: 2013-07-02 14:40
 comments: true
+author: echojuliett
 categories: [en, updates]
 ---
 

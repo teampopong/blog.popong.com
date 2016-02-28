@@ -21,11 +21,10 @@ categories: [ko]
 {% img /images/2013-06-29-polidic.png 150 %}
 <i class="icon-arrow-right"></i>
 {% img /images/2013-06-29-pokr.png 150 %}
-</center>
 <div class="caption">대한민국 정치인명사전에서 포커로</div>
+</center>
 
-
-### 서비스명을 무엇으로 할 것인가?
+## 서비스명을 무엇으로 할 것인가?
 애초에 포커는 'plan-pithy'라는 코드네임으로 시작되었습니다.
 'Pithy'는 ['간결하지만 함축적인'](http://dictionary.reference.com/browse/pithy)이라는 뜻을 가지고 있어서 포커의 철학을 표현하기에 충분했습니다.
 이후 포커의 알파 버젼을 내놓으면서 서비스명에 대한 이슈가 본격적으로 제기되었는데, 당시에는 기획안을 가장 직관적으로 나타내는 '대한민국 정치인명사전'이라는 이름을 고민 없이 채택할 수 있었죠.
