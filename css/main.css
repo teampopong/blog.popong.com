@@ -452,6 +452,11 @@ pre {
   .highlight .il {
     color: #099; }
 
+.site-header .site-title:hover {
+  text-decoration: none; }
+.site-header .site-title span {
+  font-size: 20px; }
+
 .post-content blockquote {
   font-style: normal; }
 .post-content div.center {

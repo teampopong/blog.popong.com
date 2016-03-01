@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dev Blog - Team POPONG</title>
+    <title>Dev Blog</title>
     <description>팀포퐁은 기술을 바탕으로 정치를 보다 쉽고 재미있게 하기 위한 비영리, 무소속의 중립적 단체입니다. Team POPONG is a nonprofit, nonpartisan group in Korea that aims to make politics easy and fun via technology.
 </description>
     <link>http://blog.popong.com/</link>
     <atom:link href="http://blog.popong.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Mar 2016 10:21:57 +0900</pubDate>
-    <lastBuildDate>Tue, 01 Mar 2016 10:21:57 +0900</lastBuildDate>
+    <pubDate>Tue, 01 Mar 2016 10:39:22 +0900</pubDate>
+    <lastBuildDate>Tue, 01 Mar 2016 10:39:22 +0900</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
