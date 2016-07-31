@@ -18,7 +18,6 @@ author: echojuliett
 2010년 11월 13일, K 모 대학의 S 모 동아리의 홈커밍데이에서
 처음으로 우리나라 정치 플랫폼을 구성해보자고 제안했던 자료입니다.
 
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/5bLCm78lSSI9xS" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-<div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/teampopong/20101113-64548905" title="2010-11-13 레알 소셜커머스" target="_blank">2010-11-13 레알 소셜커머스</a> </strong> from <strong><a href="//www.slideshare.net/teampopong" target="_blank">Team POPONG</a></strong> </div>
+<script async class="speakerdeck-embed" data-id="9fe1f4e2f71149599b8ed606b61ae744" data-ratio="1.2994923857868" src="//speakerdeck.com/assets/embed.js"></script>
 
 [^1]: <http://popong.com/#philosophy>
