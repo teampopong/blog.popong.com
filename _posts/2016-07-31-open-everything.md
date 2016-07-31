@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 모든 것 공개하기
+author: echojuliett
 ---
 
 팀포퐁의 세 가지 핵심 철학은
