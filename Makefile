@@ -1,3 +1,7 @@
+init:
+	bundle install
+	git clone -b master --single-branch https://github.com/teampopong/teampopong.github.io.git _site
+
 serve:
 	jekyll serve
 

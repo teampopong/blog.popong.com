@@ -6,9 +6,43 @@
 </description>
     <link>http://blog.popong.com/</link>
     <atom:link href="http://blog.popong.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Mar 2016 10:39:22 +0900</pubDate>
-    <lastBuildDate>Tue, 01 Mar 2016 10:39:22 +0900</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <pubDate>Sun, 31 Jul 2016 12:28:08 +0700</pubDate>
+    <lastBuildDate>Sun, 31 Jul 2016 12:28:08 +0700</lastBuildDate>
+    <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>모든 것 공개하기</title>
+        <description>&lt;p&gt;팀포퐁의 세 가지 핵심 철학은
+&lt;strong&gt;중립성(neutrality)&lt;/strong&gt;,
+&lt;strong&gt;자동화(automation)&lt;/strong&gt;,
+그리고 &lt;strong&gt;개방성(openness)&lt;/strong&gt;입니다. &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;팀포퐁에는 지난 2010년부터 쌓아 온 내부 회의록과 자료가 많이 있습니다.
+저희는 팀의 핵심 철학에 걸맞게, 그 동안 공개가 되고 있지 않았던 과거의 기록들을 조금씩 순차적으로 공개하기로 했습니다.
+대단치는 않더라도, 때론 조금 부끄럽더라도, 이 기록들에 녹아 있는 다양한 과정과 고민들이 우리 사회를 조금이나마 나은 곳으로 만드는데 기여할 수 있기를 바랍니다.&lt;/p&gt;
+
+&lt;p&gt;오늘 올리게 된 첫 번째 자료는
+팀포퐁의 jooddang 님이
+2010년 11월 13일, K 모 대학의 S 모 동아리의 홈커밍데이에서
+처음으로 우리나라 정치 플랫폼을 구성해보자고 제안했던 자료입니다.&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/5bLCm78lSSI9xS&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+&lt;div style=&quot;margin-bottom:5px&quot;&gt; &lt;strong&gt; &lt;a href=&quot;//www.slideshare.net/teampopong/20101113-64548905&quot; title=&quot;2010-11-13 레알 소셜커머스&quot; target=&quot;_blank&quot;&gt;2010-11-13 레알 소셜커머스&lt;/a&gt; &lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;//www.slideshare.net/teampopong&quot; target=&quot;_blank&quot;&gt;Team POPONG&lt;/a&gt;&lt;/strong&gt; &lt;/div&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;http://popong.com/#philosophy&quot;&gt;http://popong.com/#philosophy&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 31 Jul 2016 00:00:00 +0700</pubDate>
+        <link>http://blog.popong.com/2016/07/31/open-everything/</link>
+        <guid isPermaLink="true">http://blog.popong.com/2016/07/31/open-everything/</guid>
+        
+        
+      </item>
     
       <item>
         <title>이제 국회 회의록을 온라인으로도 보실 수 있습니다!</title>
@@ -67,7 +101,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Tue, 27 May 2014 21:57:00 +0900</pubDate>
+        <pubDate>Tue, 27 May 2014 21:57:00 +0700</pubDate>
         <link>http://blog.popong.com/2014/05/27/meeting-page-open/</link>
         <guid isPermaLink="true">http://blog.popong.com/2014/05/27/meeting-page-open/</guid>
         
@@ -98,7 +132,7 @@
 &lt;a href=&quot;http://twitter.com/pokrbot&quot;&gt;&lt;div style=&quot;background: #EEE; padding: 10px; margin-top: 30px;&quot;&gt;@pokrbot 바로가기&lt;/div&gt;&lt;/a&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Mon, 25 Nov 2013 21:29:00 +0900</pubDate>
+        <pubDate>Mon, 25 Nov 2013 21:29:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/11/25/pokrbot-update/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/11/25/pokrbot-update/</guid>
         
@@ -125,7 +159,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Mon, 18 Nov 2013 10:27:00 +0900</pubDate>
+        <pubDate>Mon, 18 Nov 2013 10:27:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/11/18/pokr.kr-1000-commits/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/11/18/pokr.kr-1000-commits/</guid>
         
@@ -201,7 +235,7 @@
 &lt;p&gt;팀포퐁은 내년 2월 &lt;strong&gt;대한민국 정치의 모든 것&lt;/strong&gt;을 정식 오픈하기 위해 오늘도 열심히 달리고 있습니다.&lt;br /&gt;
 많은 분들이 의견주신 마이페이지, 시각화, API 등 다양한 기능이 차례로 공개될 예정이니 늘 곁에서 지켜봐주세요! :D&lt;/p&gt;
 </description>
-        <pubDate>Thu, 03 Oct 2013 18:00:00 +0900</pubDate>
+        <pubDate>Thu, 03 Oct 2013 18:00:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/10/03/updates-ko/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/10/03/updates-ko/</guid>
         
@@ -307,7 +341,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Fri, 19 Jul 2013 12:00:00 +0900</pubDate>
+        <pubDate>Fri, 19 Jul 2013 12:00:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/07/19/pokrs-contribution/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/07/19/pokrs-contribution/</guid>
         
@@ -329,10 +363,10 @@
 포커가 바람직한 방향으로 커갈 수 있게 앞으로도 &lt;a href=&quot;http://teampopong.uservoice.com&quot;&gt;피드백 포럼&lt;/a&gt;을 통해 많은 피드백 부탁드리겠습니다!&lt;/p&gt;
 
 &lt;center&gt;
-&lt;a href=&quot;http://pokr.kr&quot;&gt;&lt;div style=&quot;background: #EEE; padding: 10px; margin-top: 30px;&quot;&gt;&#39;좋아요&#39; 누르러 가기&lt;/div&gt;&lt;/a&gt;
+&lt;a href=&quot;http://pokr.kr&quot;&gt;&lt;div style=&quot;background: #EEE; padding: 10px; margin-top: 30px;&quot;&gt;'좋아요' 누르러 가기&lt;/div&gt;&lt;/a&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Sat, 13 Jul 2013 16:23:00 +0900</pubDate>
+        <pubDate>Sat, 13 Jul 2013 16:23:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/07/13/weve-reached-1k-pokr-likes/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/07/13/weve-reached-1k-pokr-likes/</guid>
         
@@ -362,7 +396,7 @@
 
 &lt;p&gt;그럼 다음 시간에 다시 만나요~~~&lt;/p&gt;
 </description>
-        <pubDate>Wed, 10 Jul 2013 16:40:00 +0900</pubDate>
+        <pubDate>Wed, 10 Jul 2013 16:40:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/07/10/feedback/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/07/10/feedback/</guid>
         
@@ -526,7 +560,7 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Wed, 03 Jul 2013 16:00:00 +0900</pubDate>
+        <pubDate>Wed, 03 Jul 2013 16:00:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/07/03/updates-ko/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/07/03/updates-ko/</guid>
         
@@ -658,7 +692,7 @@
   &lt;li&gt;Added donations &lt;a href=&quot;https://www.gittip.com/teampopong/&quot;&gt;Gittip&lt;/a&gt;, &lt;a href=&quot;https://www.paypal.com/kr/cgi-bin/webscr?cmd=_flow&amp;amp;SESSION=rJ-od7Disgs4qf2n18TXe6BPX0vh0lFcQIsZ0nsDaFF_uJV_W9iKGHMBOQC&amp;amp;dispatch=5885d80a13c0db1f8e263663d3faee8d4e181b3aff599f99a338772351021e7d&quot;&gt;Paypal&lt;/a&gt; widgets to &lt;a href=&quot;http://popong.com&quot;&gt;popong.com&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Tue, 02 Jul 2013 14:40:00 +0900</pubDate>
+        <pubDate>Tue, 02 Jul 2013 14:40:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/07/02/updates-en/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/07/02/updates-en/</guid>
         
@@ -666,28 +700,6 @@
         <category>en</category>
         
         <category>updates</category>
-        
-      </item>
-    
-      <item>
-        <title>팀포퐁의 로고가 바뀌었어요!</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/2013-06-30-popong-logo.png&quot; /&gt;&lt;!-- more --&gt;&lt;/p&gt;
-
-&lt;p&gt;‘P’ 모양의 도형들이 퐁퐁 솟아나고 있어요.&lt;br /&gt;
-다채롭고 즐거운 아이디어가 퐁!퐁!퐁! 솟아나는 활기찬 집단, 팀포퐁을 상징하도록 이번에 새로 디자인해보았습니다 :D&lt;/p&gt;
-
-&lt;p&gt;정말 예쁘죠? ^&lt;strong&gt;__&lt;/strong&gt;_^&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;로고는 먼저 &lt;a href=&quot;http://facebook.com/teampopong&quot;&gt;페이스북 페이지&lt;/a&gt;와 &lt;a href=&quot;http://twitter.com/teampopong&quot;&gt;트위터&lt;/a&gt;에 적용하였고, &lt;a href=&quot;http://popong.com&quot;&gt;popong.com&lt;/a&gt;을 비롯해 다른 곳에는 단계적으로 적용할 예정입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sun, 30 Jun 2013 02:54:00 +0900</pubDate>
-        <link>http://blog.popong.com/2013/06/30/logo-change/</link>
-        <guid isPermaLink="true">http://blog.popong.com/2013/06/30/logo-change/</guid>
-        
-        
-        <category>ko</category>
         
       </item>
     

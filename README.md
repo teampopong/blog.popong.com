@@ -1,9 +1,5 @@
 # Team POPONG dev blog
 
-## Run
-
+    make init
     make serve
-
-## Deploy
-
     make deploy
