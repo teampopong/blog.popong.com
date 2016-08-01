@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "모든 것 공개하기 #1: Kickoff"
+title: "모든 것 공개하기 #1: 출사표"
 date: 2016-08-01 07:28
 author: echojuliett
 ---
