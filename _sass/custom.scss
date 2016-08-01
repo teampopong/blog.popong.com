@@ -50,7 +50,7 @@
     }
 
     .footnotes {
-        background-color: whitesmoke;
+        border: 1px solid #e8e8e8;
         font-size: small;
         margin-top: 40px;
         padding: 30px;
@@ -59,6 +59,57 @@
             p {
                 margin-bottom: 5px;
             }
+        }
+    }
+}
+
+.page-content {
+    padding-bottom: 50px;
+}
+
+.page-nav {
+    display: block;
+    overflow: hidden;
+    position: relative;
+
+    .page-nav-inner {
+        display: block;
+        float: left;
+        padding: 10px 30px;
+        width: 50%;
+
+        &:before {
+            background-color: whitesmoke;
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 50%;
+            z-index: -1;
+
+        }
+
+        &:hover::before {
+            background-color: #EFEFEF;
+        }
+
+    }
+
+    .page-nav-inner.prev:before {
+        left: 0;
+    }
+
+    .page-nav-inner.next {
+        text-align: right;
+        &:before {
+            left: 50%;
+        }
+    }
+
+    .page-nav-inner.none {
+        color: #dcdcdc;
+        &:before {
+            background-color: #fafafa;
         }
     }
 }

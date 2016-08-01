@@ -16,4 +16,24 @@ layout: default
     {{ content }}
   </div>
 
+  <div class="page-nav">
+    {% if page.previous.url %}
+      <a class="page-nav-inner prev" href="{{ page.previous.url }}">
+        <span>&laquo;</span>
+        <small>{{ page.previous.date | slice: 0, 10 }}</small>
+        <div>{{ page.previous.title }}</div>
+      </a>
+    {% else %}
+      <small class="page-nav-inner prev none">N/A</small>
+    {% endif %}
+    {% if page.next.url %}
+      <a class="page-nav-inner next" href="{{ page.next.url }}">
+        <small>{{ page.next.date | slice: 0, 10 }}</small>
+        <span>&raquo;</span>
+        <div>{{ page.next.title }}</div>
+      </a>
+    {% else %}
+      <small class="page-nav-inner next none">N/A</small>
+    {% endif %}
+  </div>
 </article>
