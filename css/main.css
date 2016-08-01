@@ -482,7 +482,7 @@ pre {
   margin-top: -20px;
   margin-bottom: 40px; }
 .post-content .footnotes {
-  background-color: whitesmoke;
+  border: 1px solid #e8e8e8;
   font-size: small;
   margin-top: 40px;
   padding: 30px; }
@@ -490,3 +490,36 @@ pre {
     margin-bottom: 0; }
     .post-content .footnotes ol p {
       margin-bottom: 5px; }
+
+.page-content {
+  padding-bottom: 50px; }
+
+.page-nav {
+  display: block;
+  overflow: hidden;
+  position: relative; }
+  .page-nav .page-nav-inner {
+    display: block;
+    float: left;
+    padding: 10px 30px;
+    width: 50%; }
+    .page-nav .page-nav-inner:before {
+      background-color: whitesmoke;
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 50%;
+      z-index: -1; }
+    .page-nav .page-nav-inner:hover::before {
+      background-color: #EFEFEF; }
+  .page-nav .page-nav-inner.prev:before {
+    left: 0; }
+  .page-nav .page-nav-inner.next {
+    text-align: right; }
+    .page-nav .page-nav-inner.next:before {
+      left: 50%; }
+  .page-nav .page-nav-inner.none {
+    color: #dcdcdc; }
+    .page-nav .page-nav-inner.none:before {
+      background-color: #fafafa; }
