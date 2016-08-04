@@ -18,10 +18,18 @@ author: echojuliett
 
 ## 2011-11/2011-12: 위클리 미팅
 
-- [2010-11-27 미팅 아젠다](http://www.slideshare.net/teampopong/20101127-weekly-meeting): 새 팀원 소개, 각자 할 일 정하기
-- [2010-12-04 미팅 아젠다](http://www.slideshare.net/teampopong/20101204-weekly-meeting): 끊임없는 리크루팅, "팀포퐁" 이름 탄생
+- 2010-11-27: 새 팀원 소개, 각자 할 일 정하기
+    [[Agenda]](http://www.slideshare.net/teampopong/20101127-weekly-meeting)
+- 2010-12-04: 끊임없는 리크루팅, "팀포퐁"이라는 프로젝트 네임 발표
+    [[Agenda]](http://www.slideshare.net/teampopong/20101204-weekly-meeting)
+    [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2010-12-04.md)
+- 2010-12-11: Case studies
+    [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2010-12-11.md)
+- 2010-12-18: 컨텐츠 및 컨텐츠 마케팅
+    [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2010-12-18.md)
 
 ## 2011-01-01: 첫번째 워크샵
 
-- [워크샵 아젠다](http://www.slideshare.net/teampopong/20110101-workshop-agenda): 서비스의 목표와 UI, 역할 배분에 대한 고민
-- [jooddang 님의 세션](http://www.slideshare.net/teampopong/20110101-workshop-jooddang): 열려라 국회, 그리고 Sunlight Foundation에 대한 공유
+- [Agenda](http://www.slideshare.net/teampopong/20110101-workshop-agenda): 서비스의 목표와 UI, 역할 배분에 대한 고민
+- [Logs](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2010-12-18.md)
+    - [jooddang 님의 세션](http://www.slideshare.net/teampopong/20110101-workshop-jooddang): 열려라 국회, 그리고 Sunlight Foundation에 대한 공유
