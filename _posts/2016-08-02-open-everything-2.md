@@ -34,7 +34,7 @@ author: echojuliett
 - [Logs](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2010-12-18.md)
     - [jooddang 님의 세션](http://www.slideshare.net/teampopong/20110101-workshop-jooddang): 열려라 국회, 그리고 Sunlight Foundation에 대한 공유
 
-## 2011-01
+## 2011-01/2011-02: 다시, 위클리 미팅
 
 - **2011-01-08**: 대학과 협업 고려, 개발 착수
     [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-08.md)
@@ -47,3 +47,10 @@ author: echojuliett
     - [ganzi 님의 프로토타입 제안](http://www.slideshare.net/teampopong/20110120-popong-webpage)
 - **2011-01-29**: 데이터 수집 관련 논의
     [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-29.md)
+- **2011-02-02**: Engineering plan
+    [[Doc]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-02.md)
+- **2011-02-13**: DM팀 조인, 프로덕트 구체화
+    [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-13.md)
+- **2011-02-26**: 프로덕트 전략 설정
+    [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-26.md)
+    [[Slides]](http://www.slideshare.net/teampopong/20110226-more-ideas-for-popong)
