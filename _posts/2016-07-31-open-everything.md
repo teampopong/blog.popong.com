@@ -15,6 +15,7 @@ author: echojuliett
 
 > - [모든 것 공개하기 #1 - 출사표](/2016/08/01/open-everything-1/)
 > - [모든 것 공개하기 #2 - Kickoff to First Workshop](/2016/08/02/open-everything-2/)
+> - [모든 것 공개하기 #3 - 프로덕트 개발 본격 시작](/2016/08/06/open-everything-3/)
 
 오늘 올리게 된 첫 번째 자료는
 팀포퐁의 jooddang 님이
