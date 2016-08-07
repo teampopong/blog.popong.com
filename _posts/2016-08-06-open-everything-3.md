@@ -74,8 +74,9 @@ author: echojuliett
 
     > 앞으로의 작업은, 이런 레퍼런스들에서 우리 서비스에 적용되면 좋을만한 인사이트를 잡아내는 방향이 될 것이지, 싶습니다.
 
-- **2011-04-02**: FGI 1차 안 완성, 참여연대 측에 보낼 문서 작성
+- **2011-04-02**: Focus group interview (FGI) 1차 안 완성, 참여연대 측에 보낼 문서 작성
     [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-04-02.md)
-    [[Doc]](http://www.slideshare.net/teampopong/20110402-64750651)
+    [[Doc - 참여연대]](http://www.slideshare.net/teampopong/20110402-64750651)
+    [[Doc - FGI]](http://www.slideshare.net/teampopong/20110402-fgi)
 
     > 우헝... 3시부터 밤10시까지 가열찬 토론을 해뜸 ㅋㅋ
