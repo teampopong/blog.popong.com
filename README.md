@@ -11,13 +11,13 @@
   - File name is in `YYYY-MM-DD-title.md`
   - File header should be as follows:
 
-      ---
-      layout: post
-      title: "<Put your title here -- you probably want to wrap your title with quotation marks>"
-      date: <Put the author name here>
-      ---
+        ---
+        layout: post
+        title: "<Put your title here -- you probably want to wrap your title with quotation marks>"
+        date: <Put the author name here>
+        ---
 
-      <Contents should come here>
+        <Contents should come here>
 
 
     See an example [here](https://raw.githubusercontent.com/teampopong/teampopong.github.io/source/_posts/2016-08-06-open-everything-3.md).
