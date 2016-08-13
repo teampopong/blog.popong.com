@@ -6,9 +6,81 @@
 </description>
     <link>http://blog.popong.com/</link>
     <atom:link href="http://blog.popong.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 06 Aug 2016 20:28:37 +0700</pubDate>
-    <lastBuildDate>Sat, 06 Aug 2016 20:28:37 +0700</lastBuildDate>
+    <pubDate>Sat, 13 Aug 2016 11:04:47 +0700</pubDate>
+    <lastBuildDate>Sat, 13 Aug 2016 11:04:47 +0700</lastBuildDate>
     <generator>Jekyll v3.2.0</generator>
+    
+      <item>
+        <title>모든 것 공개하기 #4 - Plan-pithy &amp; Plan-intimacy</title>
+        <description>&lt;p&gt;돌이켜보면 2011년 상반기는 팀포퐁이 정치에 대한 지식과 프로덕트에 대한 철학을 쌓아가게 된, 아주 중요한 시간이었습니다.
+한편 별다른 결과물 없이 반 년 이상 토론만 지속하다보니 팀원들이 사기가 많이 저하된 시기이기도 합니다.&lt;/p&gt;
+
+&lt;p&gt;하지만 그 후 2011년 하반기부터는 조금씩, 개개인의 성장과 더불어 프로덕트의 발전이 보이기 시작했습니다.
+기존에 “1차, 2차 프로덕트”라고 불리던 것들이
+의원 기본 정보를 보여주는 “Plan-pithy”와 의원 간 네트워크를 보여주는 “Plan-intimacy”라는 이름과 아이디어로 진화하기도 했습니다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2011-05-28&lt;/strong&gt;: 현시점까지의 논의 정리, 방향성 재정립
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-05-28.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;Fact 와 data 가 유권자들이 원하는 정보가 아닐 수 있다. 그럼에도 우리가 이 정보를 전달하는 이유는, 당위적으로 알려져야 하는 정보라고 우리가 믿기 때문이다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2011-06-04&lt;/strong&gt;: Plan-pithy 구체화 및 Plan-intimacy 검토
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-06-04.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;기본정보 보여주는 것부터라도 빨리 구현하자.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2011-06-11&lt;/strong&gt;: Plan-pithy 구체화
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-06-11.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/docs/images/2011-06-11-plan-pithy.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2011-06-14&lt;/strong&gt;: 네트워크 분석 (Plan-intimacy) 기획 및 의안 데이터 탐색 시작&lt;/p&gt;
+
+    &lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/key/1qKcNiRJMjxlVC&quot; width=&quot;595&quot; height=&quot;485&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2011-07-02&lt;/strong&gt;: Plan-intimacy 데이터 탐색 1차 공유
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-07-02.md&quot;&gt;[Logs]&lt;/a&gt;
+  &lt;a href=&quot;http://www.slideshare.net/teampopong/20110702-64955881&quot;&gt;[Doc]&lt;/a&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;좀 더 의미 있는 결과를 얻기 위해서는 의원들의 demographic 데이터가 필요!&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;2011-07-09&lt;/strong&gt;: 선관위와 질의응답 및 Plan-intimacy 데이터 탐색 2차 공유
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-07-09.md&quot;&gt;[Logs]&lt;/a&gt;
+  &lt;a href=&quot;http://www.slideshare.net/teampopong/20110709-64955921&quot;&gt;[Doc]&lt;/a&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;“귀문의 경우 의안정보의 게시방법·게시하고자 하는 홈페이지 종류 등 질의내용이 구체적이지 아니하여 정확한 답변을 드리기 어려우나, 특정 후보자(후보자가 되고자 하는 자를 포함한다)에게 유·불리하지 않도록 공정하게 의안정보(발의자 성명 포함)를 개인 홈페이지에 게시하는 것은 무방할 것이나, 특정 정당·국회의원의 의안정보만 게시하거나 특정 국회의원의 직·성명을 부각시켜 게시하는 등 선거운동을 위하여 또는 선거에 영향을 미치게 하기 위하여 게시하는 경우에는 행위양태에 따라 「공직선거법」제93조 또는 제254조에 위반될 것입니다.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;마지막으로, 다음은 Plan-pithy와 Plan-intimacy 관련 계획을 담은 위키 문서입니다.
+모양이 조금씩 잡혀가는게 보이시나요?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-06-11-plan-pithy.md&quot;&gt;Plan-pithy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-07-02-plan-intimacy.md&quot;&gt;Plan-intimacy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 13 Aug 2016 10:01:00 +0700</pubDate>
+        <link>http://blog.popong.com/2016/08/13/open-everything-4/</link>
+        <guid isPermaLink="true">http://blog.popong.com/2016/08/13/open-everything-4/</guid>
+        
+        
+      </item>
     
       <item>
         <title>모든 것 공개하기 #3 - 프로덕트 개발 본격 시작</title>
@@ -18,7 +90,7 @@
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-01-08&lt;/strong&gt;: 박oo, 한oo 교수와의 협업 고려, 개발 착수
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-08.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-01-08.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;처음부터 다수의 사용자를 노리기보다는 공략하기 쉬운 지점을 노려보자.&lt;/p&gt;
@@ -26,7 +98,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-01-15&lt;/strong&gt;: 1차 프로덕트 기본 컨셉 논의
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-15.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-01-15.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;사람들이 이걸 왜 쓸까?&lt;/p&gt;
@@ -34,14 +106,14 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-01-21&lt;/strong&gt;: 박oo, 한oo 교수와의 미팅
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-21.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-01-21.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;국회사무처는 주요 client가 국회의원들이라 정보 공개에 소극적이다.&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;2011-01-22&lt;/strong&gt;: 1차 프로덕트 프로토타이핑 회의
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-22.md&quot;&gt;[Logs]&lt;/a&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-01-22.md&quot;&gt;[Logs]&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/teampopong/20110120-popong-webpage&quot;&gt;ganzi 님의 세션&lt;/a&gt;: 프로토타입 제안&lt;/li&gt;
     &lt;/ul&gt;
@@ -52,7 +124,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-01-29&lt;/strong&gt;: 데이터 수집 관련 논의
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-01-29.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-01-29.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;일관성있게 데이터를 모아놓은 곳은 열려라 국회 뿐이다.&lt;/p&gt;
@@ -60,7 +132,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-02-02&lt;/strong&gt;: Engineering plan
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-02.md&quot;&gt;[Doc]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-02-02.md&quot;&gt;[Doc]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;어떤 프레임워크를 택하든 프레임워크의 성능이 조금 좋고 나쁘고는 scale 확장할 때 큰 의미가 없다.&lt;/p&gt;
@@ -68,7 +140,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-02-13&lt;/strong&gt;: DM팀 조인, 1차 프로덕트 구체화
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-13.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-02-13.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;데이터를 어떤 형태로 가공하고, 어느 수준까지 우리가 보여줄 것인가에 대한 논의를 계속할 필요가 있음.&lt;/p&gt;
@@ -77,16 +149,16 @@
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-02-18&lt;/strong&gt;: &lt;a href=&quot;http://watch.peoplepower21.org&quot;&gt;열려라 국회&lt;/a&gt; 협조 요청
   &lt;a href=&quot;http://www.slideshare.net/teampopong/201102-64750608&quot;&gt;[Doc]&lt;/a&gt;
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-18.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-02-18.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;일단은 본회의 표결과 객관적인 다른 지표들을 위주로 하고 좀 더 생각해 보는 것이 좋지 않을까 생각합니다.&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;2011-02-20&lt;/strong&gt;: 진행 상황 체크
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-20.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/li&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-02-20.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;2011-02-26&lt;/strong&gt;: 2차 프로덕트 전략 설정
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-02-26.md&quot;&gt;[Logs]&lt;/a&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-02-26.md&quot;&gt;[Logs]&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/teampopong/20110226-more-ideas-for-popong&quot;&gt;echojuliett, Jooseoung 님의 세션&lt;/a&gt;: 분석 토픽 제안&lt;/li&gt;
     &lt;/ul&gt;
@@ -96,10 +168,10 @@
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;2011-03-11&lt;/strong&gt;: 박oo, 한oo 교수와의 미팅
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-03-11.txt&quot;&gt;[Logs]&lt;/a&gt;&lt;/li&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-03-11.txt&quot;&gt;[Logs]&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-03-12&lt;/strong&gt;: 프로덕트 관련 리서치 방향 수립
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-03-12.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-03-12.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;보다 유권자, end user 관점에서 need 를 분석하고, 프로덕트 방향을 설정하는 것이 필요.&lt;/p&gt;
@@ -107,7 +179,7 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-03-18&lt;/strong&gt;: 참여연대 미팅
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-03-18.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-03-18.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;상당히 긍정적이었고, 우리에게서 받을 수 있는 협조 사항에 대해서도 좋아했음.&lt;/p&gt;
@@ -115,16 +187,20 @@
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;2011-03-26&lt;/strong&gt;: 프로덕트 관련 리서치 계속
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-03-26.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-03-26.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;앞으로의 작업은, 이런 레퍼런스들에서 우리 서비스에 적용되면 좋을만한 인사이트를 잡아내는 방향이 될 것이지, 싶습니다.&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;2011-04-02&lt;/strong&gt;: FGI 1차 안 완성, 참여연대 측에 보낼 문서 작성
-  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/source/docs/2011-04-02.md&quot;&gt;[Logs]&lt;/a&gt;
-  &lt;a href=&quot;http://www.slideshare.net/teampopong/20110402-64750651&quot;&gt;[Doc]&lt;/a&gt;&lt;/p&gt;
+    &lt;p&gt;&lt;strong&gt;2011-04-02&lt;/strong&gt;: Focus group interview (FGI) 1차 안 완성, 참여연대 측에 보낼 문서 작성
+  &lt;a href=&quot;https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-04-02.md&quot;&gt;[Logs]&lt;/a&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/teampopong/20110402-fgi&quot;&gt;Doc - FGI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;http://www.slideshare.net/teampopong/20110402-64750651&quot;&gt;Doc - 참여연대&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
 
     &lt;blockquote&gt;
       &lt;p&gt;우헝… 3시부터 밤10시까지 가열찬 토론을 해뜸 ㅋㅋ&lt;/p&gt;
@@ -565,31 +641,6 @@
         <pubDate>Fri, 19 Jul 2013 12:00:00 +0700</pubDate>
         <link>http://blog.popong.com/2013/07/19/pokrs-contribution/</link>
         <guid isPermaLink="true">http://blog.popong.com/2013/07/19/pokrs-contribution/</guid>
-        
-        
-        <category>ko</category>
-        
-      </item>
-    
-      <item>
-        <title>1K</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://pokr.kr&quot;&gt;포커(Pokr)&lt;/a&gt;를 세상에 내놓은지 한 달.&lt;br /&gt;
-페이스북 &lt;code class=&quot;highlighter-rouge&quot;&gt;좋아요&lt;/code&gt; 개수 1K를 찍었습니다!&lt;!-- more --&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img class=&quot;center&quot; src=&quot;/images/2013-07-13-1k.png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;지난 몇 달간 포커를 탄생시키기 위해 온 열의를 다 쏟은 개발팀에게는 가장 큰 선물이었습니다. 이 기쁨을 안고 정식 런칭을 해서, 천 명이 아니라 전국 수천만명의 잠재적 유저들이 유익하게 사용할 수 있는 서비스를 만들기 위해 노력하겠습니다.&lt;/p&gt;
-
-&lt;p&gt;아직 부족한 베타 서비스임에도 불구하고 많은 관심과 응원을 주셔서 감사드립니다.&lt;br /&gt;
-포커가 바람직한 방향으로 커갈 수 있게 앞으로도 &lt;a href=&quot;http://teampopong.uservoice.com&quot;&gt;피드백 포럼&lt;/a&gt;을 통해 많은 피드백 부탁드리겠습니다!&lt;/p&gt;
-
-&lt;center&gt;
-&lt;a href=&quot;http://pokr.kr&quot;&gt;&lt;div style=&quot;background: #EEE; padding: 10px; margin-top: 30px;&quot;&gt;'좋아요' 누르러 가기&lt;/div&gt;&lt;/a&gt;
-&lt;/center&gt;
-</description>
-        <pubDate>Sat, 13 Jul 2013 16:23:00 +0700</pubDate>
-        <link>http://blog.popong.com/2013/07/13/weve-reached-1k-pokr-likes/</link>
-        <guid isPermaLink="true">http://blog.popong.com/2013/07/13/weve-reached-1k-pokr-likes/</guid>
         
         
         <category>ko</category>
