@@ -76,7 +76,8 @@ author: echojuliett
 
 - **2011-04-02**: Focus group interview (FGI) 1차 안 완성, 참여연대 측에 보낼 문서 작성
     [[Logs]](https://github.com/teampopong/teampopong.github.io/blob/master/docs/2011-04-02.md)
-    [[Doc - 참여연대]](http://www.slideshare.net/teampopong/20110402-64750651)
-    [[Doc - FGI]](http://www.slideshare.net/teampopong/20110402-fgi)
+
+    - [Doc - FGI](http://www.slideshare.net/teampopong/20110402-fgi)
+    - [Doc - 참여연대](http://www.slideshare.net/teampopong/20110402-64750651)
 
     > 우헝... 3시부터 밤10시까지 가열찬 토론을 해뜸 ㅋㅋ
