@@ -1,0 +1,33 @@
+# Database Scheme
+
+기존에 가지고 있는 파일에 대한 DB Scheme.
+
+Table member
+    idkey, name, bod, region
+
+Table bill
+    idkey, type, bill_name, judge_comm(committee.idkey), status_detail, proposed_date, decision_date, rep_proposer(member.idkey)
+
+Table bill_com_proposer
+    bill.idkey, member.idkey
+
+Table party
+    idkey, party_name
+
+Table committee
+    idkey, comm_name
+
+Table trans_mem_party
+    member.idkey, party.idkey,  date
+
+Table trans_mem_elected
+    member.idkey, xth_assembly
+
+Table trans_mem_comm
+    member.idkey, committee.idkey, date
+
+Table trans_comm_chairman
+    committee.idkey, member.idkey, date
+
+
+추가!
