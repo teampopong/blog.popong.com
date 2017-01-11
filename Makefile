@@ -3,7 +3,7 @@ init:
 	git clone -b master --single-branch git@github.com:teampopong/teampopong.github.io.git _site
 
 serve:
-	jekyll serve
+	bundle exec jekyll serve
 
 deploy:
 	jekyll build
