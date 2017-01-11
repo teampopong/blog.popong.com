@@ -67,7 +67,7 @@
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">2013년 3, 4월 업데이트 내역</h1>
     <p class="post-meta">
-      <time datetime="2013-04-27T16:35:00+07:00" itemprop="datePublished">Apr 27, 2013</time>
+      <time datetime="2013-04-27T16:35:00+09:00" itemprop="datePublished">Apr 27, 2013</time>
       
        • By <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">echojuliett, cornchz</span></span>
     </p>
@@ -90,7 +90,7 @@
   <li>지역구, 직업, 최종학력, 경력, 주소 등 신상정보를 추가 공개하고, 타임라인과 트렌드를 별도의 탭으로 분리 (모아보기 탭 추가 예정)</li>
   <li>검색 속도 개선 실험
     <ul>
-      <li>가설: SQL <code class="highlighter-rouge">like "%keyword%"</code>문을 sequential search하는 대신 PostgreSQL의 GIN(Generalized Inverted Index) index + trigram module을 이용하면 더 빠르겠지?</li>
+      <li>가설: SQL <code>like "%keyword%"</code>문을 sequential search하는 대신 PostgreSQL의 GIN(Generalized Inverted Index) index + trigram module을 이용하면 더 빠르겠지?</li>
       <li>결론: dataset이 워낙 작아서 seq search가 더 빠르다. (현재 포퐁에 등록된 정치인의 수는 약 24,000여 명)</li>
     </ul>
   </li>
@@ -103,7 +103,7 @@
   <li><a href="https://pypi.python.org/pypi/alembic">Alembic</a>을 이용해 DB history/migration 관리</li>
   <li>의원의 주소지 및 출마지 structurization
     <ul>
-      <li>ex: <code class="highlighter-rouge">경기 부천시원미구을</code> -&gt; <code class="highlighter-rouge">경기도&lt;시도&gt; 부천시&lt;시군구&gt; 원미구&lt;시군구&gt; 을</code></li>
+      <li>ex: <code>경기 부천시원미구을</code> -&gt; <code>경기도&lt;시도&gt; 부천시&lt;시군구&gt; 원미구&lt;시군구&gt; 을</code></li>
     </ul>
   </li>
   <li>18대 회의록 및 의안 크롤링 완료 (<strong>두구두구</strong>)</li>
@@ -136,13 +136,13 @@
     
       <a class="page-nav-inner prev" href="/2013/02/24/updates-en/">
         <span>&laquo;</span>
-        <small>2013-02-24</small>
+        <small>2013-02-24 00:00:00 +0900</small>
         <div>Updates (Jan., Feb. 2013)</div>
       </a>
     
     
       <a class="page-nav-inner next" href="/2013/04/27/updates-en/">
-        <small>2013-04-27</small>
+        <small>2013-04-27 18:24:00 +0900</small>
         <span>&raquo;</span>
         <div>Updates (Mar., Apr. 2013)</div>
       </a>
