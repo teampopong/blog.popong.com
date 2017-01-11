@@ -6,7 +6,7 @@ serve:
 	bundle exec jekyll serve
 
 deploy:
-	jekyll build
+	bundle exec jekyll build
 	cd _site && \
 		git add . && \
 		git commit -m "Site updated at `date`" && \
