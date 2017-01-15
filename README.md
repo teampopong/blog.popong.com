@@ -16,7 +16,7 @@
             title: "<Put your title here -- you probably want to wrap your title with quotation marks>"
             date: <Put the author name here>
             ---
-
+         
             <Contents should come here>
 
 
