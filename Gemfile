@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rouge', '~> 1.7'
 
 # jekyll
-gem 'jekyll', '<3.0.0'
+gem 'jekyll', '<4.0.0'
 group :jekyll_plugins do
   gem 'jekyll-compose'
   gem 'jekyll-paginate'
